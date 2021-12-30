@@ -1,5 +1,6 @@
 // Import path
 const path = require('path');
+const webpack = require('webpack');
 
 // Export modules
 module.exports = {
@@ -27,6 +28,8 @@ module.exports = {
   mode: 'development',
   devtool: 'eval-cheap-module-source-map',
   devServer: {
-    contentBase: path.join(__dirname, 'public'),
+    static: path.join(__dirname, 'public'),
+    port: 3000,
   },
+  plugins: [new webpack.HotModuleReplacementPlugin()],
 };
