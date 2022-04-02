@@ -1,15 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import cartoon from './images/cartoon.jpg'
+import styled from 'styled-components'
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello Mario + Lugi World!!!</h1>
-      <img src={cartoon} width="500" alt="Cartoon Image" />
-    </div>
+    <Block>
+      Hello World!
+    </Block>
   );
 };
+
+const Block = styled.div`
+  background-color: green;
+  color: ${({ color }) => color || 'blue'};
+  padding: 10px;
+  border: 1px solid ${({ color }) => color || 'blue'};
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+  &:hover {
+    background-color: lightblue;
+  }
+`;
 
 ReactDOM.render(<App />, document.getElementById('root'));
