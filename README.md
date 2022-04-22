@@ -16,7 +16,7 @@
     <img src="./src/images/screenshot.png" alt="Screenshot" width="75%">
   </a>
 
-<h2 align="center">React + Webpack + Babel custom boilerplate</h2>
+<h2 align="center">Custom React + Webpack + Babel boilerplate</h2>
 
   <p align="center">
     This is a custom boilerplate that I created to quickly spin up a React project <strong>without</strong> using Create-React-App. 
@@ -67,7 +67,7 @@
 This is a custom boilerplate that I created to quickly spin up a React project without using Create-React-App.
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
- <!-- `derrickmstrong`, `hotplate_react-webpack-babel`, `dmstr0ng`, `derrickmstrong`, `gmail`, `derrickmstrong`, `hotplate_react-webpack-babel`, `This is a custom boilerplate that I created to quickly spin up a React project without using Create-React-App. ` -->
+ <!-- `derrickmstrong`, `hotplate_react-webpack-babel`, `dmstr0ng`, `derrickmstrong`, `derrickmstrong`, `hotplate_react-webpack-babel`, `This is a custom boilerplate that I created to quickly spin up a React project without using Create-React-App. ` -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
